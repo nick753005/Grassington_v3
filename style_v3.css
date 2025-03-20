@@ -21,7 +21,7 @@ img {
 }
 
 /* Responsive layout - makes a one column layout instead of a row layout */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .flex-container {
     flex-direction: column;
     max-width: 70%; 
@@ -55,7 +55,7 @@ p {
 }
 
 /* Reduce font size for Mobile */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   h1 {
     font-size: 25px;
     padding: 10px;       
